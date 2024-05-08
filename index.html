@@ -2,9 +2,9 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./style.css">
     <title>Calculadora PRO</title>
-    <meta name="viewport"     content="width=device-width, initial-scale=1">
 </head>
     <body>
         <h1>Calculadora</h1>
@@ -14,6 +14,8 @@
             <input type="button" value="⇦" onclick="borrarCaracter()" id="borrar-caracter">
             <input type="button" value="÷" onclick="operadores('/')">
             <input type="button" value="+" onclick="operadores('+')">
+            <input class="RD" type="button" value="‼" onclick="location.href = `https://www.facebook.com/YefriDev/` ">
+            
         </div>
 
         <div>
@@ -21,24 +23,27 @@
             <input type="button" value="2" onclick=" numeroCalculo(2)">
             <input type="button" value="3" onclick=" numeroCalculo(3)">
             <input type="button" value="-" onclick=" operadores('-')">
+            <input type="button" value="√" onclick=" operadores('Math.sqrt()')">
         </div>
         <div> 
             <input type="button" value="4" onclick=" numeroCalculo(4)">
             <input type="button" value="5" onclick=" numeroCalculo(5)">
             <input type="button" value="6" onclick=" numeroCalculo(6)">
             <input type="button" value="×" onclick=" operadores('*')">
+            <input type="button" value="^" onclick=" operadores('**')">
         </div>
         <div>
             <input type="button" value="7" onclick=" numeroCalculo(7)">
             <input type="button" value="8" onclick=" numeroCalculo(8)">
             <input type="button" value="9" onclick=" numeroCalculo(9)">
             <input type="button" value="=" onclick="calcular()">
+            <input class="RD" type="button" value=" " onclick="location.href = `https://www.instagram.com/yefridev/ ">
         </div>
             <input type="button" value="0" onclick=" numeroCalculo(0)">
             <input type="text" placeholder="Operacion" id="display" >
-            
+
     </section>
-    
+        <marquee scrollamount="8" behavior="" direction=""> <i>Hecho por YefriDev</i></marquee>
     </body>
-<script src="./script.js"></script>
+<script src="main.js"></script>
 </html>

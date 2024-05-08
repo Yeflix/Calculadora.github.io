@@ -1,59 +1,68 @@
-body{
-    background-image: url(./455565.png);
-    display: flex;
-    flex-direction: column;
-    
-    background-repeat: no-repeat;
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body{
+    background-image: url(455565.png);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    font-size: 62.5%;
+}
+.RD {
+    background: url("https://img.generation-nt.com/facebook_04B0032001662445.png") ;
+    background-repeat: no-repeat;
+    font-size: 1.4rem;
+    width: 55px;
+    height: 40px;
+    margin: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: solid 1px ;
+}
 h1{
-    font-size: 50px;
+    font-size: 2.6rem;
     color: blanchedalmond;
     font-family: sans-serif;
     font-style: italic;
-    padding: 0 0 0 50px;
+    padding: 20px;
 }
-
-
 section {   
     display: flex;
-    width: 500px;
-    height: 500px;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+   background: #D3B497BA;
+   box-sizing: border-box;
+   border-radius: 20px;
+   padding:20px 0 20px 0;
+  
 }
 input {
-    font-size: 20px;
-    width: 100px;
-    height: 50px;
+    font-size: 1.4rem;
+    width: 55px;
+    height: 40px;
+    margin: 2px;
     border-radius: 10px;
     cursor: pointer;
+    border: solid 1px ;
 }
 
 input:hover {
-    background-color: orangered;
+    background-color: #F5B77C;
 }
-
+marquee{
+  margin-top: 10px;
+  font-size: 1.6rem;
+  color: wheat;
+}
 
 #display {
     padding: 0 0 0 10px;
-    margin: 10px;
     width: 80%;
     border-radius: 30px;
-    height: 15%;
-}
-
-@media (max-width: 1000px) {
-    body {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    } 
-
-    h1 {
-    margin: 3% 0 -5% 0;
-    padding: 0;
-    }
-
+    height: 30x
 }
